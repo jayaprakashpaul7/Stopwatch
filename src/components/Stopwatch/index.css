@@ -1,0 +1,61 @@
+/* Write CSS here */
+* {
+  box-sizing: border-box;
+}
+.bg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+
+  padding: 20px;
+}
+.main-heading {
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #1db05f;
+}
+.watch-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+.timer-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 7px 4px rgba(7, 36, 20, 0.2);
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.timer-clock-icon-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+img {
+  height: 30px;
+  width: 30px;
+  margin-right: 4px;
+}
+.btn-c {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 170px;
+}
+button {
+  height: 28px;
+  border: 0;
+  outline: none;
+  width: 50px;
+  margin-left: auto;
+}
+.start-btn {
+  background-color: #1db05f;
+}
